@@ -34,7 +34,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 After completing the challenge, we should now have a working server.js that lets us fully use all features of this application. From there, you should be able to make some of your own notes and delete ones that you do not want.
 
-To view the website itself, please click here [here.](https://vast-tundra-39442-83b1d417db17.herokuapp.com/)
+To view the website itself, please click [here.](https://vast-tundra-39442-83b1d417db17.herokuapp.com/)
 
 ## Credits
 This code was completed by Zachary Roy
