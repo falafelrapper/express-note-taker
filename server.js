@@ -1,8 +1,5 @@
 // Server script
-/*
-TODO LIST
-9. When you are completely finished, upload to Heroku
-*/
+
 // Imports express, our path package, the middleware clog, also sets up our index router
 const express = require('express');
 const path = require('path');
@@ -22,6 +19,7 @@ app.use('/api', api);
 
 app.use(express.static('public'));
 
+// View routes
 app.get('/', (req, res) => 
     res.sendFile(path.join(__dirname, '/public/index.html'))
 );
@@ -34,7 +32,7 @@ app.get('*', (req, res) =>
     res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
-
+// Express listener
 app.listen(PORT, () =>
     console.log(`App listening at http://localhost:${PORT}`)
 )
